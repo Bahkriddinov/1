@@ -42,10 +42,13 @@ body {
   transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1);
   display: none;
 }
-.wrapper .to-do-blc .to-do-tasks ol #main-link {
+.wrapper .to-do-blc .to-do-tasks ul {
+  list-style: none;
+}
+.wrapper .to-do-blc .to-do-tasks ul #main-link {
   font-size: 22px;
 }
-.wrapper .to-do-blc .to-do-tasks ol #task-link {
+.wrapper .to-do-blc .to-do-tasks ul #task-link {
   width: 100%;
   margin: 15px 0;
   padding: 10px 15px;
@@ -55,7 +58,7 @@ body {
   border-radius: 50px;
   box-shadow: 10px 5px 6px #c2c2c2;
 }
-.wrapper .to-do-blc .to-do-tasks ol #task-link i {
+.wrapper .to-do-blc .to-do-tasks ul #task-link i {
   float: right;
   padding: 5px;
 }

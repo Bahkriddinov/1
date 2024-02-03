@@ -9,7 +9,7 @@ addButton.addEventListener('click', () => {
         const listItem = document.createElement('li');
         listItem.id = `task-link-${taskId}`;
         listItem.style.width = '100%'
-        listItem.style.textTransform = 'capitalizee'
+        listItem.style.textTransform = 'capitalize'
         listItem.innerHTML = ` <li id='task-link'> ${input.value}  <i class='bx bx-x'></i> </li>`;
         taskBlock.appendChild(listItem);
 

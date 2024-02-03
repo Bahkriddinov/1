@@ -39,7 +39,8 @@ body{
                 transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1);
                 display: none;
             }
-            ol{
+            ul{
+                list-style: none;
                 #main-link{
                     font-size: 22px;
                 }
