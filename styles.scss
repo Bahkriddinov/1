@@ -85,4 +85,12 @@ body{
             }
         }
     }
+    .author{
+        position: absolute;
+        bottom: 10px;
+        text-transform: capitalize;
+        color: #c2c2c2;
+        text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+
+    }
 }
