@@ -91,7 +91,7 @@ body {
 }
 
 @media screen and (max-width: 420px) {
-  .to-do-blc {
-    width: 370px;
+  input {
+    width: 70%;
   }
 }/*# sourceMappingURL=styles.css.map */
